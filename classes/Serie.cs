@@ -3,9 +3,9 @@ namespace crud_serie.classes
     public class Serie : EntidadeBase
     {
         private Genero Genero {get; set;}
-        public string Titulo { get; set; }  
-        public string Descricao { get; set; }   
-        public int Ano { get; set; }
+        private string Titulo { get; set; }  
+        private string Descricao { get; set; }   
+        private int Ano { get; set; }
 
         public  Serie(int id, Genero genero, string titulo, string descricao, int ano) {
             this.Id = id;
@@ -23,7 +23,16 @@ namespace crud_serie.classes
         retorno = $"Descrição {this.Descricao}\n";
         retorno = $"Ano de início: {this.Ano}\n";
         return retorno;
-      
+    }
+
+    public string getTitulo()
+    { 
+        return this.Titulo; 
+    }
+
+    public int getId()
+    { 
+        return this.Id; 
     }
 
     }
