@@ -1,0 +1,16 @@
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\crud_serie.exe
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\crud_serie.deps.json
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\crud_serie.runtimeconfig.json
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\crud_serie.runtimeconfig.dev.json
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\crud_serie.dll
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\ref\crud_serie.dll
+C:\Users\venil\Desktop\crud_serie\bin\Debug\net5.0\crud_serie.pdb
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.csprojAssemblyReference.cache
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.AssemblyInfoInputs.cache
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.AssemblyInfo.cs
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.csproj.CoreCompileInputs.cache
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.dll
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\ref\crud_serie.dll
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.pdb
+C:\Users\venil\Desktop\crud_serie\obj\Debug\net5.0\crud_serie.genruntimeconfig.cache
