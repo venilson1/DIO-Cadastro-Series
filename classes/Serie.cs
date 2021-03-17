@@ -14,5 +14,17 @@ namespace crud_serie.classes
             this.Descricao = descricao;
             this.Ano = ano;
         }
+
+    public override string ToString()
+    {   
+        string retorno = "";
+        retorno = $"Gerero: {this.Genero}\n";
+        retorno = $"Titulo: {this.Titulo}\n";
+        retorno = $"Descrição {this.Descricao}\n";
+        retorno = $"Ano de início: {this.Ano}\n";
+        return retorno;
+      
+    }
+
     }
 }
