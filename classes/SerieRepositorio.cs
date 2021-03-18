@@ -28,12 +28,12 @@ namespace crud_serie.classes
 
     public int ProximoId()
     {
-      throw new System.NotImplementedException();
+      return listaSerie.Count;
     }
 
     public Serie RetornaPorId(int id)
     {
-      throw new System.NotImplementedException();
+     return listaSerie[id];
     }
   }
 }
