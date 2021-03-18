@@ -18,7 +18,7 @@ namespace crud_serie.classes
 
     public void Inserir(Serie objeto)
     {
-      throw new System.NotImplementedException();
+      listaSerie.Add(objeto);
     }
 
     public List<Serie> Lista()
