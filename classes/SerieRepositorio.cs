@@ -8,7 +8,7 @@ namespace crud_serie.classes
     private List<Serie> listaSerie = new List<Serie>();
     public void Atualizar(int id, Serie objeto)
     {
-      throw new System.NotImplementedException();
+      listaSerie[id] = objeto;
     }
 
     public void Excluir(int id)
