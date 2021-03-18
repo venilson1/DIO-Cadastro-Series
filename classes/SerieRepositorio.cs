@@ -13,7 +13,7 @@ namespace crud_serie.classes
 
     public void Excluir(int id)
     {
-      throw new System.NotImplementedException();
+      listaSerie[id].getExcluido();
     }
 
     public void Inserir(Serie objeto)
