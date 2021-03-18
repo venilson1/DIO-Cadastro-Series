@@ -23,7 +23,7 @@ namespace crud_serie.classes
 
     public List<Serie> Lista()
     {
-      throw new System.NotImplementedException();
+      return listaSerie;
     }
 
     public int ProximoId()
