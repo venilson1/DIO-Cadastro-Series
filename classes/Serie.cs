@@ -24,6 +24,7 @@ namespace crud_serie.classes
             retorno = $"Titulo: {this.Titulo}\n";
             retorno = $"Descrição {this.Descricao}\n";
             retorno = $"Ano de início: {this.Ano}\n";
+            retorno = $"Excluido: {this.Excluido}\n";
             return retorno;
         }
 
