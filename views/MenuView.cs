@@ -6,6 +6,7 @@ namespace crud_serie.views
     {
         public static string ObterOpcaoUsuario()
         {
+            Console.WriteLine("\n");
             Console.WriteLine("DIO SÉRIES!!!");
             Console.WriteLine("Informe a Opção Desejada!!!");
 
@@ -16,7 +17,8 @@ namespace crud_serie.views
             Console.WriteLine("5 - Visualizar série");
             Console.WriteLine("C - Limpar Tela");
             Console.WriteLine("X - Sair");
-            Console.WriteLine("");
+            Console.WriteLine("\n\n");
+
 
             string opcaoUsuario = Console.ReadLine().ToUpper();
             Console.WriteLine();
