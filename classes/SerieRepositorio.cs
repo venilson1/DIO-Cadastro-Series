@@ -13,7 +13,7 @@ namespace crud_serie.classes
 
     public void Excluir(int id)
     {
-      listaSerie[id].getExcluido();
+      listaSerie[id].setExcluido();
     }
 
     public void Inserir(Serie objeto)
