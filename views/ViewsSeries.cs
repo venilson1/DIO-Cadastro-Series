@@ -18,9 +18,12 @@ namespace crud_serie.views
         return;
       }
 
+      
+
       foreach (var serie in lista)
       {
-        Console.WriteLine($"#ID {serie.getId()}: - {serie.getTitulo()}");
+        var excluido = serie.getExcluido();
+        Console.WriteLine($"#ID {serie.getId()}: - {serie.getTitulo()} - Excluido: {excluido}");
       }
     }
     public static void InserirSerie()
@@ -93,7 +96,31 @@ namespace crud_serie.views
 
       repositorio.Atualizar(entradaId, atualizaSerie);
     }
-    public static void ExcluirSerie() { }
-    public static void VisualizarSerie() { }
+    public static void ExcluirSerie() 
+    { 
+      Console.WriteLine("*** EXCLUIR SÉRIE ***\n\n");
+
+      Console.WriteLine("\n");
+      ViewsSeries.ListarSerie();
+      Console.WriteLine("\n");
+
+      Console.WriteLine("Digite o Id da série que deseja excluir");
+      int entradaId = int.Parse(Console.ReadLine());
+
+      
+      repositorio.Excluir(entradaId); 
+      
+    } 
+    public static void VisualizarSerie() 
+    { 
+      Console.WriteLine("*** VISUALIZAR SÉRIE ***\n\n");
+
+      Console.WriteLine("Digite o Id da série que deseja visualizar");
+      int entradaId = int.Parse(Console.ReadLine());
+
+      var serie = repositorio.RetornaPorId(entradaId);
+
+      Console.WriteLine(serie);
+    }
   }
 }
