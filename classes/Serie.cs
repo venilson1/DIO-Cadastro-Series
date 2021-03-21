@@ -20,11 +20,12 @@ namespace crud_serie.classes
         public override string ToString()
         {   
             string retorno = "";
-            retorno = $"Gerero: {this.Genero}\n";
-            retorno = $"Titulo: {this.Titulo}\n";
-            retorno = $"Descrição {this.Descricao}\n";
-            retorno = $"Ano de início: {this.Ano}\n";
-            retorno = $"Excluido: {this.Excluido}\n";
+            retorno = 
+            $"Gerero: {this.Genero}\n" +
+            $"Titulo: {this.Titulo}\n" +
+            $"Descrição {this.Descricao}\n" +
+            $"Ano de início: {this.Ano}\n" +
+            $"Excluido: {this.Excluido}\n";
             return retorno;
         }
 
@@ -38,7 +39,12 @@ namespace crud_serie.classes
             return this.Id; 
         }
 
-        public void getExcluido()
+        public bool getExcluido()
+        { 
+            return this.Excluido; 
+        }
+
+        public void setExcluido()
         { 
             this.Excluido = true; 
         }
